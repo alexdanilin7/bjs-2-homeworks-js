@@ -45,7 +45,6 @@ function differenceEvenOddWorker(...arr) {
 function averageEvenElementsWorker(...arr) {
   
   let evenElements = arr.filter(element => element % 2 === 0 )
-  console.log(evenElements);
   if(evenElements.length===0){
     return 0;
   }
